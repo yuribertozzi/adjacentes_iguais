@@ -21,11 +21,11 @@ antes = parcela
 
 
 
-nadg = True
+nadj = True
 
 
 
-while (entrada != 0) and (nadg):
+while (entrada != 0) and (nadj):
 
 	parcela = entrada % 10
 
@@ -33,7 +33,7 @@ while (entrada != 0) and (nadg):
 
 	if (parcela) == (antes):
 
-			nadg = False
+			nadj = False
 
 	antes = parcela
 
@@ -41,7 +41,7 @@ while (entrada != 0) and (nadg):
 print()
 
 
-if nadg:
+if nadj:
 
 	print("Esse número não tem dígitos adjacentes iguais.")
 
